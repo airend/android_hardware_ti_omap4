@@ -11,6 +11,8 @@ on fs
     # Load PVR module
     insmod /lib/modules/pvrsrvkm.ko
     insmod /lib/modules/omaplfb.ko
+    insmod /system/lib/modules/pvrsrvkm.ko
+    insmod /system/lib/modules/omaplfb.ko
 
 service pvrsrvinit /system/bin/pvrsrvinit
     class core
