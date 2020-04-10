@@ -33,9 +33,9 @@
   * Rr Rg Rb Gr Gg Gb Br Bg Bb
   */
 
-package org.cyanogenmod.hardware;
+package org.lineageos.hardware;
 
-import org.cyanogenmod.internal.util.FileUtils;
+import org.lineageos.internal.util.FileUtils;
 
 public class DisplayColorCalibration {
     private static final String MGR_PATH = getManagerPath();
